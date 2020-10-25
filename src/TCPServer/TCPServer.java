@@ -8,6 +8,7 @@ public class TCPServer {
 
     final int port;
     public static final int portNumber = 5123;
+    //To try on your computer, change the username to yours
     File myFile = new File("C:\\Users\\richa\\Documents\\TheText.txt");
 
     public static void main(String[] args) throws IOException, InterruptedException {

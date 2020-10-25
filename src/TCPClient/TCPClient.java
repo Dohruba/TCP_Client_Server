@@ -51,7 +51,7 @@ public class TCPClient {
         socket.getOutputStream().write(Irgendwas.getBytes());
 
         InputStream is = socket.getInputStream();
-        FileOutputStream fos = new FileOutputStream("C:\\Users\\richa\\Documents\\Universidad\\Angewandte Informatik\\2.Semester\\Programmieren2\\Test\\Haiku.txt");
+        FileOutputStream fos = new FileOutputStream("C:\\Users\\richa\\Documents\\Universidad\\AngewandteInformatik\\2.Semester\\Programmieren2\\Test\\Haiku.txt");
         BufferedOutputStream bos = new BufferedOutputStream(fos);
 
         byte[] buffer = new byte[10000];
